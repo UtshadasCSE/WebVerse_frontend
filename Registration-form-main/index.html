@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Application for Registration</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="apply-box">
+        <h1>
+          Registrastion Form
+          <span class="tittle-small">PC-H</span>
+        </h1>
+        <form action="https://formspree.io/f/mknaolgv" method="post">
+          <div class="form-container">
+            <div class="form-contral">
+              <label for="fn">First Name</label>
+              <input
+                type="text"
+                name="fn"
+                id="fn"
+                placeholder="Enter your first name"
+              />
+            </div>
+            <div class="form-contral">
+              <label for="ln">Last Name</label>
+              <input
+                type="text"
+                name="ln"
+                id="ln"
+                placeholder="Enter your last name"
+              />
+            </div>
+            <div class="form-contral">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email address"
+              />
+            </div>
+            <div class="form-contral">
+              <label for="depart">Department</label>
+              <select name="depart" id="depart">
+                <option value="">Department</option>
+                <option value="CSE">CSE</option>
+                <option value="BBA">App developer</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="EEE">EEE</option>
+              </select>
+            </div>
+            <div class="text-contral">
+              <label for="address">Address</label>
+              <textarea
+                name="address"
+                id="address"
+                cols="50"
+                rows="4"
+                placeholder="Enter Address"
+              ></textarea>
+            </div>
+            <div class="form-contral">
+              <label for="sec">Section</label>
+              <input type="text" name="sec" id="sec" placeholder="section" />
+            </div>
+            <div class="form-contral">
+              <label for="st-id">Student ID</label>
+              <input
+                type="number"
+                name="st-id"
+                id="st-id"
+                placeholder="Enter your student id"
+              />
+            </div>
+            <div class="form-contral">
+              <label for="date">Date</label>
+              <input type="date" name="date" value="2023-02-04" id="date" />
+            </div>
+            <div class="form-contral">
+              <label for="cv">Upload Your File</label>
+              <input type="file" name="file" id="file" />
+            </div>
+          </div>
+          <div class="btn">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
