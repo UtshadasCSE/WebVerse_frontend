@@ -1,0 +1,40 @@
+<html>
+    <!DOCTYPE html>
+    <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Simple Interest Calculator</h1>
+<maindiv>
+    <form action="" id="mainform">
+    Amount <input type="number"  id="principal">  <br/>
+        Interest Rate <input type="range" id ="rate" min="minval" max ="maxval" step =".25"  value="default_value" id="rate" oninput = updateRate()>
+        <span id="rate_val">10.25% </span> <br/>
+        No. of Years <input type="number"  id="years">
+        <select id = "years">
+            <option value = "1">1</option>
+            <option value = "2">2</option>
+            <option value = "3">3</option>
+            <option value = "4">4</option>
+            <option value = "5">5</option>
+            <option value = "6">6</option>
+            <option value = "7">7</option>
+            <option value = "8">8</option>
+            <option value = "9">9</option>
+        </select>
+            <br/>
+
+</maindiv>
+
+<div id="slider">
+
+</div>
+        <button onclick="compute(); return false;">Compute Interest  </button>
+        </form>
+        <span id = "result" class="result">
+
+        </span>
+
+        <footer>This Calculator belongs to Abdullah Anis</footer>
+    </body>

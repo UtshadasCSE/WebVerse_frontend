@@ -1,0 +1,10 @@
+body {background-color:rgb(255, 255, 255);font-family:Arial;color:rgb(0, 0, 0)}
+h1{color:rgb(141, 156, 141);font-family: verdana;}
+.maindiv{
+    background-color:white;
+    color:black;
+    width:300px;
+    padding:20px;
+    border-radius:25px;
+    align:center;
+}
