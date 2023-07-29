@@ -1,0 +1,36 @@
+p{
+  color: aqua;  
+  border: 2px solid powderblue;
+  padding: 30px;
+  margin: 50px;
+}
+a:link{
+    background-color: transparent;
+    color: aquamarine;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: aqua;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  body{
+    background-image: url("https://images.wallpapersden.com/image/download/surreal-sunset-minimal-4k_bWllaGeUmZqaraWkpJRqZmdlrWdtbWU.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  table, th, td {
+    border: 1px solid aqua;
+    border-radius: 10px;
+    }
