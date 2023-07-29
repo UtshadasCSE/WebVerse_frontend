@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: hsla(210, 71%, 55%, 1);
+    background: linear-gradient(90deg, hsla(210, 71%, 55%, 1) 0%, hsla(334, 77%, 69%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(210, 71%, 55%, 1) 0%, hsla(334, 77%, 69%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(210, 71%, 55%, 1) 0%, hsla(334, 77%, 69%, 1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3C8CDE", endColorstr="#ED73A8", GradientType=1 );
+}
+.container{
+    margin: 100px auto;
+    padding: 30px;
+    width: 50%;text-align: center;
+    background: hsla(341, 94%, 49%, 1);
+    background: linear-gradient(90deg, hsla(341, 94%, 49%, 1) 0%, hsla(16, 90%, 77%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(341, 94%, 49%, 1) 0%, hsla(16, 90%, 77%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(341, 94%, 49%, 1) 0%, hsla(16, 90%, 77%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F40752", endColorstr="#F9AB8F", GradientType=1 );
+    border-radius: 20px;
+    transition: 0.3s ease-out;
+}
+.btn{
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFF;
+    text-align: center;
+    align-items: center;
+    background: #F7D060;
+    font-weight: bolder;
+}
+.container:hover{
+    background: hsla(312, 77%, 86%, 1);
+    background: linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%, 79%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%, 79%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(312, 77%, 86%, 1) 0%, hsla(220, 61%, 79%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F7C0EC", endColorstr="#A7BDEA", GradientType=1 );
+    transition: 1.5s ease-in;
+    width: 60%;
+    box-shadow: 3px 4px 5px #2A2F4F;
+
+   
+}
+.btn:hover{
+    background: #2A2F4F;
+    width: 50%;
+    transition: 1.2s ease-in;
+}

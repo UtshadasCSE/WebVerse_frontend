@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background: hsla(186, 33%, 94%, 1);
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    margin: 150px auto;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #FF6D60;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 5px #FCC8D1;
+    color: #FFF;
+}
+hr{
+    margin: 0 auto;
+    width: 60%;
+}
+input{
+    
+    width: 60%;
+    height: 20px;
+    margin: 10px;
+    padding: 17px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.btn{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 10px;
+    background: #D21312;
+    box-shadow: 3px 3px 5px #FF6000;
+    color: #FFF;
+}
+.btn:hover{
+    background: #6D5D6E;
+    color: #FFF;
+    width: 40%;
+    transition: .6s ease-in-out;
+    font-weight: bolder;
+}
+p{
+    padding: 20px;
+    color: purple;
+    font-size: 18px;
+    font-weight: bolder;
+}

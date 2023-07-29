@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaana</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="music-player">
+        <nav>
+          <div class="circle">
+            <i class="bx bx-left-arrow-alt"></i>
+          </div>
+          <div class="circle">
+            <i class="bx bx-menu"></i>
+          </div>
+        </nav>
+        <img src="res/OIP.jpeg" class="song-img" />
+        <h1>Piya Tu Piya</h1>
+        <p>Arijit Singh, Chinmayi Sripada</p>
+        <audio controls>
+          <source
+            src="res/Piya Tu Piya - Dongri Ka Raja - Gashmir Mahajani & Reecha Sinha - Arijit Singh & Chinmayi Sripada.mp3"
+          />
+        </audio>
+        <input type="range" id="progress" value="0" />
+        <div class="controls">
+          <div><i class="bx bxs-skip-previous-circle"></i></div>
+          <div><i class="bx bx-pause-circle"></i></div>
+          <div><i class="bx bxs-skip-next-circle"></i></div>
+        </div>
+      </div>
+    </div>
+    <!-- //box icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
