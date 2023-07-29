@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Registration Form</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form action="">
+      <label for="fn">First Name:</label>
+      <input type="text" required id="fn" placeholder="Enter your first name" />
+      <br />
+      <br />
+      <label for="ln">Last Name:</label>
+      <input type="text" required id="ln" placeholder="Enter your last name" />
+      <br />
+      <br />
+      <label for="department">Department:</label>
+      <select name="department" required id="department">
+        <option value="">CSE</option>
+        <option value="">LLB</option>
+        <option value="">EEE</option>
+        <option value="">Civil</option>
+      </select>
+      <br />
+      <br />
+      <label for="section">Section:</label>
+      <input type="text" id="section" />
+      <br />
+      <br />
+      <label for="st-id">Student ID</label>
+      <input type="number" required id="st-id" placeholder="201153000" />
+      <br />
+      <br />
+      <label for="email">Student Email</label>
+      <input type="email" required placeholder="example15-300@diu.edu.bd" />
+      <br />
+      <br />
+      <label for="gender">Gender:</label>
+      <input type="radio" value="male" id="m" name="gender" />Male
+      <input type="radio" value="female" id="fm" name="gender" />Female
+      <br />
+      <br />
+      <label for="semester">Semester</label>
+      <input type="checkbox" name="checkbox" />Spring2023
+      <input type="checkbox" name="checkbox" />Fall2023
+      <br />
+      <br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
