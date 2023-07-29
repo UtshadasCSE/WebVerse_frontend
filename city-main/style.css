@@ -1,0 +1,9 @@
+body{
+  background: black;
+}
+.container{
+  background-color: #839AA8;
+  font-weight: bold;
+  justify-content: space-between;
+  margin: 0 auto;
+}
