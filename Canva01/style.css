@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  background-color: #e9b384;
+}
+.home h5 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.home h2 {
+  font-size: 90px;
+  font-family: "Dancing Script", cursive;
+}
+.btn-home {
+  margin: auto;
+  width: 200px;
+  height: 70px;
+  transition: 0.6s ease-in-out;
+  border-radius: 4px;
+  background-color: #e9b384;
+}
+.btn-home:hover {
+  color: #fff;
+  background-color: #f31559;
+  box-shadow: 2px 3px 4px 3px #cee6f3;
+}
+.hr-rotate {
+  background-color: #fff;
+  margin: auto;
+  width: 2px;
+  height: 200px;
+}
+.home p {
+  word-spacing: 15px;
+}
+
+/* about section  */
+.about {
+  height: 100vh;
+  background-color: #f4e0b9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding: 50px;
+}
+.about img {
+  border-radius: 5px;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: justify;
+  width: 40%;
+}
+.about-text h3 {
+  text-align: center;
+  font-size: 60px;
+}
+/* services section  */
+.services {
+  padding: 50px;
+  height: 100vh;
+  background-color: #faf0d7;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+
+  align-items: center;
+}
+.titleSer {
+  font-size: 60px;
+  font-family: "Dancing Script", cursive;
+}
+.services-work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 80%;
+  text-align: center;
+}
+.ser-one h3 {
+  color: #e9b384;
+}
+.ser-two h3 {
+  color: #e9b384;
+}
+.ser-three h3 {
+  color: #e9b384;
+}
+/* testimonial section  */
+.testimonials {
+  height: 100vh;
+  background-color: #e9b384;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.test-title {
+  font-size: 60px;
+  font-family: "Dancing Script", cursive;
+}
+.rivew {
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 40px;
+}
+.test-content {
+  padding: 20px;
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid #000;
+  box-shadow: 2px 3px 4px 3px #cee6f3;
+}
+.name {
+  margin-top: 30px;
+}
+.img-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img-name img {
+  width: 50px;
+}
+.rev-parar {
+  text-align: center;
+}
+.contact {
+  height: 100vh;
+  background-color: #faf0d7;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.title-con {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.title-con h3 {
+  font-size: 80px;
+  color: #f31559;
+  font-family: "Dancing Script", cursive;
+}
+.title-con li {
+  list-style: none;
+}
+.title-con a {
+  text-decoration: none;
+}
+.address {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e48586;
+  width: 40%;
+  height: 480px;
+  padding: 60px;
+  gap: 60px;
+}
+.writeMe h3 {
+  color: #f31559;
+  font-size: 30px;
+}
+.emailMe h3 {
+  color: #f31559;
+  font-size: 30px;
+}
+.callMe h3 {
+  color: #f31559;
+  font-size: 30px;
+}
+
+/* meadi a */
+@media only screen and (max-width: 956px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about img {
+    width: 200px;
+  }
+}
