@@ -1,0 +1,30 @@
+body{
+  margin: 0px;
+  font-family: sans-serif;
+  background: url(img/bg.png)no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+.section{
+  background-color: #94B49F;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  width: 60%;
+  margin: 10rem auto 0 auto;
+}
+.section img{
+  height: 290px;
+  display: flex;
+  justify-content: space-between;
+}
+.section h1{
+  margin: 0px;
+  color: #231955;
+}
+.section p{
+  color: #D1512D;
+  margin-right: 15px;
+  font-weight: bolder;
+}
