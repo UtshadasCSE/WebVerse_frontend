@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #252b48;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  text-align: center;
+  word-spacing: 14px;
+  letter-spacing: 6px;
+}
+.imgZone {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.buttoZone {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.buttoZone button {
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #f7e987;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 40px #5b9a8b;
+  color: #ea1179;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.buttoZone button:hover {
+  background-color: #241468;
+}
+.resultZone {
+  margin-top: 70px;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  height: 50px;
+  background-color: #445069;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 640px) {
+  .container {
+    margin-top: 100px;
+  }
+  .container h1 {
+    text-align: center;
+    font-size: 17px;
+    word-spacing: 14px;
+    letter-spacing: 6px;
+  }
+  .imgZone img {
+    width: 50%;
+  }
+  .buttoZone button {
+    margin: 20px;
+    width: 40%;
+    height: 40px;
+    transition: 0.5s ease-in-out;
+  }
+  .buttoZone button:hover {
+    background-color: #241468;
+  }
+  .resultZone {
+    margin: 20px auto;
+    width: 80%;
+    font-size: 10px;
+  }
+}
