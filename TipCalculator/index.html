@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- //remix-icon CDn  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">Tip Calculator</div>
+      <div class="inputForm">
+        <div class="inputOption">
+          <label for="totalBill">Total Bill:</label>
+          <br />
+          <input type="number" id="totalBill" placeholder="Your total bill" />
+          <br />
+          <label for="totalBill">Tip %:</label>
+          <br />
+          <input type="number" id="tip" placeholder="Tip" />
+        </div>
+        <div class="people-buttton">
+          <div class="peope">
+            <p><i id="increment" class="ri-add-line"></i></p>
+            <p id="peopleIn">1</p>
+            <p><i id="decrement" class="ri-subtract-line"></i></p>
+          </div>
+          <button id="btn" class="btn">Calculate</button>
+        </div>
+      </div>
+      <div class="summary">
+        <div class="sumHeading">
+          <h3>Summary</h3>
+        </div>
+        <div class="calShowZone">
+          <div class="Info">
+            <p>Total Bill:</p>
+            <p>Total Tip:</p>
+            <p>Tax:5%</p>
+            <p class="line">---------------</p>
+
+            <p id="peopleSum">Total Per Person:</p>
+          </div>
+          <div class="moneyShow">
+            <p id="showBill">$150</p>
+            <p id="tipAmountshow">$10</p>
+            <p id="taxShow">$0.5%</p>
+            <p class="line">-----------</p>
+            <p id="totalPerPerson">$100</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
