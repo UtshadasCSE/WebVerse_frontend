@@ -1,0 +1,18 @@
+.container {
+  height: 100vh;
+  background-color: red;
+  display: grid;
+  /* grid-template-rows: 120px 120px 120px;
+  grid-template-columns: 120px 120px 120px; */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.item {
+  background-color: aqua;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
