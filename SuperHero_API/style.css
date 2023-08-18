@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background: url(assets/bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  margin: 150px auto;
+  width: 70%;
+  height: 500px;
+  background-color: #1d267d;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #d4adfc;
+}
+.inputBtn {
+  margin: 10px 30px;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#inputName {
+  color: #fff;
+  font-size: 15px;
+  margin: 20px;
+  width: 300px;
+  height: 50px;
+  background-color: #84a7a1;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+.searchBtn {
+  color: #fff;
+  padding: 15px 30px;
+  border: 1px solid #d4adfc;
+  outline: none;
+  border-radius: 3px;
+  background-color: #090580;
+  box-shadow: 0 0 30px #6554af;
+  transition: 0.5s ease-in-out;
+}
+.searchBtn:hover {
+  font-weight: bold;
+  background-color: #e966a0;
+  cursor: pointer;
+}
+#randomGen {
+  margin: 20px 100px;
+  padding: 15px 50px;
+  color: #fff;
+  background-color: #ff8551;
+  border: 1px solid #fff;
+  outline: none;
+  box-shadow: 0 0 30px #6554af;
+  transition: 0.5s ease-in-out;
+  border-radius: 3px;
+}
+#randomGen:hover {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #9bcdd2;
+}
+.herosInfo {
+  color: #e966a0;
+  margin: 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+.herosInfo img {
+  width: 50%;
+  height: 80%;
+  border-radius: 10px;
+}
+.herosInfo h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1409px) {
+  .inputBtn {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 839px) {
+  .container {
+    width: 90%;
+    height: 94%;
+  }
+  .inputBtn div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #inputName {
+    width: max-content;
+  }
+  #randomGen {
+    padding: 10px 40px;
+  }
+  .herosInfo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .about {
+    text-align: left;
+  }
+}
