@@ -1,9 +1,10 @@
-const countryName = document.getElementById("countryName").value;
+const countryName = document.getElementById("countryName");
 const btn = document.getElementById("btn");
 const result_show = document.getElementById("result-show");
 
 btn.onclick = () => {
-  let url = `https://restcountries.com/v3.1/name/${countryName}?fullText=true`;
+  let cNameValue= countryName.value;
+  let url = `https://restcountries.com/v3.1/name/${cNameValue}?fullText=true`;
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
