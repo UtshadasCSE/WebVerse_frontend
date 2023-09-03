@@ -1,0 +1,14 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 4px solid salmon;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.boxx{
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    overflow: auto;
+}
