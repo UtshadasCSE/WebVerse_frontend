@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url("img/bg.jpg");
+}
+body{
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
