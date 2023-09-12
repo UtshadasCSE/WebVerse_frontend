@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #191825;
+    color: #FFF;
+}
+hr{
+    margin-top: 30%;
+}
+.container{
+   
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
