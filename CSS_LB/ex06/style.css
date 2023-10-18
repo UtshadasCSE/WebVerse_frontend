@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #3876BF;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+}
+.item{
+    
+    background-color:#192655 ;
+    border: 2px solid #F8BDEB;
+}
+.holy,.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

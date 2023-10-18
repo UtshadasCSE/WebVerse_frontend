@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-areas: 
+       "header header header"
+       "sidebar contact contact"
+       "sidebar c1 c2" 
+       "footer footer footer"      
+    ;
+    gap: 1rem;
+}
+.item{
+    border: 2px solid black;
+    background-color: rgb(77, 119, 119);
+}
+.header{
+    grid-area: header;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.contact{
+    grid-area: contact;
+}
+.c1{
+    grid-area: c1;
+}
+.c2{
+    grid-area: c2;
+}
+.footer{
+    grid-area: footer;
+}

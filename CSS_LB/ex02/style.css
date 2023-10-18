@@ -1,0 +1,12 @@
+img{
+    margin: 10px;
+}
+div{
+    /* width: 80%;
+    height: 300px; */
+    border: 1px solid salmon;
+}
+.two{
+    position: relative;
+    top: 70px;
+}
