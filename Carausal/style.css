@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 180px;
+    height: 48vh;
+    width: 600px;
+    border-radius: 6px;
+    background-image: url("https://th.bing.com/th/id/R.f3debe09344f2549beac997cbb976fd2?rik=lwOc%2f69kLkM7Xg&pid=ImgRaw&r=0");
+    background-size: cover;
+    animation: gallery 20s linear infinite;
+}
+@keyframes gallery{
+    20%{
+        background-image: url("https://summercampreviews.com/wp-content/uploads/2019/04/performancecenter.jpg");
+    }
+    50%{
+        background-image: url("https://global-uploads.webflow.com/5ef5480befd392489dacf544/5f9f5e5943de7e69a1339242_5f44a7398c0cdf460857e744_img-image.jpeg");
+    }
+    80%{
+        background-image: url("https://global-uploads.webflow.com/5ef5480befd392489dacf544/5f9f5e5943de7e69a1339242_5f44a7398c0cdf460857e744_img-image.jpeg");
+    }
+    100%{
+        background-image: url("https://www.imgacademy.com/sites/default/files/east-campus-aerial.jpg");
+    }
+}
