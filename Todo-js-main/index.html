@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Todo-Add it and Done it</title>
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>Todo List <img src="assets/icon.png" alt="" /></h2>
+        <div class="adBtn">
+          <div class="row">
+            <input type="text" id="inputBox" placeholder="Add a task" />
+            <button onclick="addTask()">Add Task</button>
+          </div>
+        </div>
+
+        <ul id="list-container">
+          <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

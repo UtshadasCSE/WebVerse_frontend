@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1D5D9B;
+}
+.wrapper{
+    width: 600px;
+    background-color: #75C2F6;
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+.wrapper header{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.wrapper .content{
+    margin: 30px 0;
+}
+.content .qoute-area{
+   display: flex;
+   justify-content: center;
+}
+.qoute-area i{
+    font-size: 15px;
+}
+.qoute-area i:first-child{
+    margin: 3px 10px 0 0;
+}
+.qoute-area i:last-child{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 0 3px 10px;
+}
+.qoute-area .qoute{
+    font-size: 22px;
+    text-align: center;
+    word-break: break-all;
+}
+.content .author{
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+}
+.author span:first-child{
+    margin: -7p 5px 0 0;
+    font-family: monospace;
+}
+.wrapper .button{
+    border-top: 1px solid #F8FDCF;
+}
+.button .fetures{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fetures ul{
+    display: flex;
+}
+.fetures ul li{
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1D5D9B;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    border: 2px solid #071952;
+}
+.fetures ul li:hover{
+    color: #FFF;
+    background-color:#4A55A2;
+}
+.fetures button{
+    cursor: pointer;
+    font-style: 16px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    padding: 13px 22px;
+    background-color: #4A55A2;
+    border-radius: 10px;
+}
+button.loading{
+    opacity: 0.3s;
+    pointer-events: none;
+}
+@media only screen and (max-width:606px) {
+    .wrapper{
+        width: 90%;
+        
+    }
+    .wrapper header{
+        font-size:20px;
+    }
+   .qoute-area .qoute{
+    width: 80%;
+    font-size: 15px;
+   }
+   .fetures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+   }
+   button{
+    margin: 20px;
+   }
+  }

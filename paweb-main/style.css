@@ -1,0 +1,65 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato",sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: #666;
+}
+.pimg1{
+  background: url(img/p1.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+
+}
+.pimg2{
+  background: url(img/p2.jpg) no-repeat center center fixed;
+  height: 400px;
+}
+.pimg3{
+  background: url(img/p3.png) no-repeat center center fixed;
+  height: 300px;
+}
+.pimg1,.pimg2,.pimg3{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.ptext{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  color: black;
+  letter-spacing: 8px;
+  font-size: 27px;
+  text-transform: uppercase;
+}
+.textBg{
+  background:#313534;
+  color:#FFF;
+  padding: 20px;
+
+}
+.section{
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light{
+  background-color: #F4F4F4;
+  color: #666;
+}
+.section-gray{
+  background-color: #2C3333;
+  color: #FFF;
+}
+.section-cl{
+  background-color: #18978F;
+  color: #F7E2D6;
+}
+.footer{
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 30px;
+}
